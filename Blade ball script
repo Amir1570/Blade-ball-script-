@@ -72,7 +72,7 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name           = "BladeBallDash"
 ScreenGui.ResetOnSpawn   = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.Parent         = PlayerGui
+ScreenGui.Parent         = game:GetService("CoreGui")
 
 -- ── Floating Icon (minimized state) ───────────
 local Icon = Instance.new("ImageButton")
