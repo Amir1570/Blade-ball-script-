@@ -72,7 +72,7 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name           = "BladeBallDash"
 ScreenGui.ResetOnSpawn   = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.Parent         = game:GetService("CoreGui")
+ScreenGui.Parent         = PlayerGui
 
 -- ── Floating Icon (minimized state) ───────────
 local Icon = Instance.new("ImageButton")
@@ -835,4 +835,3 @@ end)
 -- ══════════════════════════════════════════════
 AddLog("Dashboard v2.0 تم التحميل ✔", S.AccentColor)
 print("[BladeBall v2] تم التحميل ✔  RightAlt للإخفاء/الإظهار")
-
